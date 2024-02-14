@@ -4,13 +4,6 @@
   background: variables.$color-fondo2;
   padding: 0 20px;
 
-  &__sticky {
-    @media (min-width: 1024px) {
-      position: fixed;
-      top: 0;
-    }
-  }
-
   &__menu {
     overflow: hidden;
     transition: height 0.3s ease;
